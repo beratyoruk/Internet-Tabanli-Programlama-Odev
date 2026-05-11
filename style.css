@@ -12,7 +12,6 @@ body {
     color: #2c2c2c;
 }
 
-/* NAVİGASYON */
 nav {
     background-color: #fff;
     border-bottom: 2px solid #e8e0d5;
@@ -48,7 +47,6 @@ nav ul li a:hover {
     color: #c0392b;
 }
 
-/* FOOTER */
 footer {
     background-color: #2c2c2c;
     color: #aaa;
@@ -57,7 +55,6 @@ footer {
     font-size: 13px;
 }
 
-/* GENEL BUTON */
 .btn {
     background-color: #c0392b;
     color: #fff;
@@ -75,10 +72,6 @@ footer {
 .btn:hover {
     background-color: #a93226;
 }
-
-/* ===================== */
-/*      ANA SAYFA        */
-/* ===================== */
 
 .hero {
     display: flex;
@@ -133,7 +126,6 @@ footer {
     font-size: 100px;
 }
 
-/* BİLGİ BANDI */
 .bilgi-bandi {
     display: flex;
     background-color: #c0392b;
@@ -163,7 +155,6 @@ footer {
     opacity: 0.85;
 }
 
-/* ÖNE ÇIKAN YEMEKLER */
 .one-cikan {
     padding: 50px 80px;
     background-color: #faf9f7;
@@ -232,7 +223,6 @@ footer {
     line-height: 1.6;
 }
 
-/* TANITIM */
 .tanitim {
     display: flex;
     gap: 60px;
@@ -289,7 +279,6 @@ footer {
     font-weight: 700;
 }
 
-/* REZERVASYON BANDI */
 .rezervasyon-bandi {
     display: flex;
     justify-content: space-between;
@@ -312,10 +301,6 @@ footer {
     font-size: 14px;
     color: #666;
 }
-
-/* ===================== */
-/*    HAKKIMIZDA          */
-/* ===================== */
 
 .sayfa-ust {
     padding: 50px 80px 30px;
@@ -402,10 +387,6 @@ footer {
     flex-shrink: 0;
 }
 
-/* ===================== */
-/*         MENÜ          */
-/* ===================== */
-
 .menu-ust {
     display: flex;
     justify-content: space-between;
@@ -484,10 +465,6 @@ footer {
     color: #c0392b;
     white-space: nowrap;
 }
-
-/* ===================== */
-/*      İLETİŞİM         */
-/* ===================== */
 
 .iletisim-icerik {
     display: flex;
