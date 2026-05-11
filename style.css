@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #faf9f7;
+    color: #2c2c2c;
+}
+
+/* NAVİGASYON */
+nav {
+    background-color: #fff;
+    border-bottom: 2px solid #e8e0d5;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 800;
+    color: #c0392b;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+nav ul li a {
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #c0392b;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2c2c2c;
+    color: #aaa;
+    text-align: center;
+    padding: 25px;
+    font-size: 13px;
+}
+
+/* GENEL BUTON */
+.btn {
+    background-color: #c0392b;
+    color: #fff;
+    padding: 11px 26px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: #a93226;
+}
+
+/* ===================== */
+/*      ANA SAYFA        */
+/* ===================== */
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 70px 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e0d5;
+}
+
+.hero-yazi {
+    flex: 1;
+}
+
+.hero-yazi span {
+    display: inline-block;
+    background-color: #fdecea;
+    color: #c0392b;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.hero-yazi h1 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 18px;
+    color: #1a1a1a;
+}
+
+.hero-yazi p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 28px;
+    max-width: 420px;
+}
+
+.hero-gorsel {
+    flex: 1;
+    background-color: #fdecea;
+    border-radius: 16px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+
+/* BİLGİ BANDI */
+.bilgi-bandi {
+    display: flex;
+    background-color: #c0392b;
+    color: white;
+}
+
+.bilgi-bandi .bilgi-item {
+    flex: 1;
+    padding: 28px 20px;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+.bilgi-bandi .bilgi-item:last-child {
+    border-right: none;
+}
+
+.bilgi-bandi .bilgi-item strong {
+    display: block;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.bilgi-bandi .bilgi-item span {
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+/* ÖNE ÇIKAN YEMEKLER */
+.one-cikan {
+    padding: 50px 80px;
+    background-color: #faf9f7;
+    border-bottom: 1px solid #e8e0d5;
+}
+
+.one-cikan-baslik {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.one-cikan-baslik h2 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #1a1a1a;
+}
+
+.btn-link {
+    color: #c0392b;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.one-yemekler {
+    display: flex;
+    gap: 16px;
+}
+
+.one-yemek {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #e8e0d5;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.one-yemek-ust {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.one-yemek-ust h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.one-yemek-ust span {
+    font-size: 15px;
+    font-weight: 800;
+    color: #c0392b;
+}
+
+.one-yemek p {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.6;
+}
+
+/* TANITIM */
+.tanitim {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 60px 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e0d5;
+}
+
+.tanitim-yazi {
+    flex: 1;
+}
+
+.tanitim-yazi h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #1a1a1a;
+    line-height: 1.3;
+    margin-bottom: 18px;
+}
+
+.tanitim-yazi p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 14px;
+}
+
+.tanitim-yazi .btn-link {
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.tanitim-alinti {
+    flex: 1;
+    background-color: #faf9f7;
+    border-left: 4px solid #c0392b;
+    padding: 30px;
+    border-radius: 0 8px 8px 0;
+}
+
+.tanitim-alinti blockquote {
+    font-size: 17px;
+    color: #333;
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.tanitim-alinti cite {
+    font-size: 13px;
+    color: #999;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* REZERVASYON BANDI */
+.rezervasyon-bandi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    background-color: #fdecea;
+    border-top: 1px solid #e8e0d5;
+    border-bottom: 1px solid #e8e0d5;
+}
+
+.rezervasyon-bandi strong {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+}
+
+.rezervasyon-bandi p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* ===================== */
+/*    HAKKIMIZDA          */
+/* ===================== */
+
+.sayfa-ust {
+    padding: 50px 80px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e0d5;
+}
+
+.sayfa-ust h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.sayfa-ust p {
+    color: #888;
+    font-size: 15px;
+}
+
+.hakkimizda-icerik {
+    display: flex;
+    gap: 50px;
+    padding: 50px 80px;
+    align-items: flex-start;
+    background-color: #faf9f7;
+}
+
+.hakkimizda-sol {
+    flex: 3;
+}
+
+.hakkimizda-sol h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #c0392b;
+    margin-bottom: 14px;
+}
+
+.hakkimizda-sol p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.9;
+    margin-bottom: 16px;
+}
+
+.hakkimizda-sag {
+    flex: 2;
+    background-color: #fff;
+    border: 1px solid #e8e0d5;
+    border-radius: 12px;
+    padding: 28px;
+}
+
+.hakkimizda-sag h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #fdecea;
+}
+
+.hakkimizda-sag ul {
+    list-style: none;
+}
+
+.hakkimizda-sag ul li {
+    font-size: 14px;
+    color: #555;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0ebe4;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hakkimizda-sag ul li::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #c0392b;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* ===================== */
+/*         MENÜ          */
+/* ===================== */
+
+.menu-ust {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e0d5;
+}
+
+.menu-ust h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1a1a1a;
+}
+
+.menu-ust p {
+    font-size: 14px;
+    color: #888;
+}
+
+.menu-icerik {
+    padding: 40px 80px;
+    background-color: #faf9f7;
+}
+
+.menu-kategori {
+    margin-bottom: 40px;
+}
+
+.menu-kategori h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #c0392b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fdecea;
+}
+
+.menu-satirlar {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.menu-satir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 16px 20px;
+    border: 1px solid #e8e0d5;
+    border-radius: 8px;
+}
+
+.menu-satir:hover {
+    border-color: #c0392b;
+}
+
+.menu-satir-sol h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+}
+
+.menu-satir-sol p {
+    font-size: 13px;
+    color: #999;
+}
+
+.menu-satir-fiyat {
+    font-size: 16px;
+    font-weight: 800;
+    color: #c0392b;
+    white-space: nowrap;
+}
+
+/* ===================== */
+/*      İLETİŞİM         */
+/* ===================== */
+
+.iletisim-icerik {
+    display: flex;
+    gap: 40px;
+    padding: 50px 80px;
+    background-color: #faf9f7;
+    align-items: flex-start;
+}
+
+.iletisim-form {
+    flex: 2;
+    background-color: #fff;
+    border: 1px solid #e8e0d5;
+    border-radius: 12px;
+    padding: 36px;
+}
+
+.iletisim-form h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #1a1a1a;
+}
+
+.form-grup {
+    display: flex;
+    gap: 16px;
+}
+
+.form-grup > div {
+    flex: 1;
+}
+
+.iletisim-form label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+.iletisim-form input,
+.iletisim-form textarea,
+.iletisim-form select {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #faf9f7;
+}
+
+.iletisim-form input:focus,
+.iletisim-form textarea:focus,
+.iletisim-form select:focus {
+    outline: none;
+    border-color: #c0392b;
+    background-color: #fff;
+}
+
+.iletisim-form textarea {
+    height: 110px;
+    resize: vertical;
+}
+
+.iletisim-bilgiler {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.bilgi-satir {
+    background-color: #fff;
+    border: 1px solid #e8e0d5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bilgi-satir strong {
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    color: #c0392b;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.bilgi-satir p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+}
